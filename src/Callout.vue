@@ -1,13 +1,18 @@
 <template>
   <div class="callout">
-    <slot />
+    ⚠️<slot />
   </div>
 </template>
 
+<script lang="ts">
+export default{}
+</script>
+
 <style>
 .callout {
-  height: 50px;
-  width: 50px;
-  background: Red;
+  box-shadow: #e3e8ee 0 0 0 1px;
+background-color: #fcf9e9;
+padding: 12px;
+margin-bottom: 12px;
 }
 </style>

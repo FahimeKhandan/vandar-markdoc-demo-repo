@@ -1,6 +1,6 @@
 <script setup>
 import Markdoc from '@markdoc/markdoc'
-import render from '../../src'
+import render from "vue-markdoc"
 
 const doc = `
 
