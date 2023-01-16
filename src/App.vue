@@ -1,9 +1,15 @@
-<script setup lang="ts">
+<script  lang="ts">
 import Markdoc from "@markdoc/markdoc";
 import render from "vue-markdoc";
 // import Callout from './Callout.vue'
-// import a2aDoc from './a2a.md'
+import a2aDoc from './a2a.md'
 
+
+export default {
+  components: {
+    a2aDoc,
+  },
+}
 // const tags = {
 //   callout: {
 //     render: Callout,
