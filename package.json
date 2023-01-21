@@ -9,8 +9,14 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@codemirror/lang-html": "^6.4.1",
+    "@codemirror/lang-javascript": "^6.1.2",
+    "@codemirror/lang-markdown": "^6.0.5",
+    "@codemirror/theme-one-dark": "^6.1.0",
     "@markdoc/markdoc": "^0.2.1",
+    "codemirror": "^6.0.1",
     "vue": "^3.2.41",
+    "vue-codemirror": "^6.1.1",
     "vue-markdoc": "^0.1.2"
   },
   "devDependencies": {
